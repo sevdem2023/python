@@ -1,0 +1,9 @@
+tr="ş,ç,ğ,ö,ü,ı,İ"
+ad=input("lütfen birkullanıcı adı giriniz")
+for karakter in ad:
+    if karakter in tr:
+        print("lütfen türkçe karakter kullanmayınız")
+        quit()
+    else:
+        print("kullanıcı adınız başarıyla belirlendi")
+        break
